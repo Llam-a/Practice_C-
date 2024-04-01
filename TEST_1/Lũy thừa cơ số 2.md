@@ -8,22 +8,22 @@ Challenge đầu tiên khá dễ, với lại cũng đã có hint nên mình ko 
 
 using namespace std;
 
-bool check(long long n) {
-  if (n == 0) return false;
-  while (n % 2 == 0) {
-    n /= 2;
-  }
-  return n == 1;
-}
+bool check(long long n){
+	while(n % 2 == 0){
+		n /=2;
+		}
+		if(n ==1) return true;
+		else return false;
+	}
 
-int main() {
-  long long n;
-  cin >> n;
-  if (check(n)) {
-    cout << "YES" ;
-  } else {
-    cout << "NO";
-  }
-  return 0;
+
+int main(){
+	long long n;cin >> n;
+	if(check(n)){
+		cout << "YES";
+	}else{
+		cout << "NO";
+	}
+	return 0;
 }
 ```
