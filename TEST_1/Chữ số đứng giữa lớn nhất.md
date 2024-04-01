@@ -36,6 +36,11 @@ while (temp > 0) {
             return false;
         temp /= 10;
     }
+```
+
+Còn đây là lời giải
+
+![image](https://github.com/Llam-a/Practice_Cpp/assets/115911041/f2bbda5b-e738-4fec-ab80-68ef156e03ae)
 
     return true;
 }
