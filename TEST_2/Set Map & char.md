@@ -2,7 +2,7 @@
 
 Chall này thì yêu cầu ta in ra kí tự lớn nhất, nhỏ nhất, lớn nhì, nhỏ nhì. Bởi vì các phần tử trong set sẽ được sắp xếp từ nhỏ đến lớn, nên vị trí của lớn nhất và nhỏ nhất lần lượt sẽ là `begin()` và `rbegin()`. 
 
-Còn lớn nhì và nhỏ nhì. Thì mình sẽ dùng iterator trỏ vào `begin()` rồi `++` và tương tự với số nhỏ nhì.
+Còn lớn nhì và nhỏ nhì. Thì mình sẽ dùng iterator trỏ vào `begin()` rồi ++ và tương tự với số nhỏ nhì là `rbegin()` sau đó ++ để nó trỏ về phía trước.
 
 ```cpp
 #include<bits/stdc++.h>
