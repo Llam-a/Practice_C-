@@ -6,7 +6,7 @@ Challenge này, mình sẽ sử dụng map kết hợp với dạng bài mảng 
 
 ```cpp
 #include<bits/stdc++.h>
-
+using namespace std;
 bool check(long long n){
     while(n){
         int digit = n % 10;
