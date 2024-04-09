@@ -1,9 +1,8 @@
 ![image](https://github.com/Llam-a/Practice_Cpp/assets/115911041/b7baaeca-0e01-42c1-8756-5c700781d220)
 
+Đối với set thì các phần tử chỉ xuất hiện 1 lần hoặc 0 lần, nên mình sẽ lưu các phần tử mảng B[] ở trong set, con A[] thì lưu ở mảng.
 
-Idea làm chall này của mình là sẽ ban đầu thì mình nhập mảng A[], còn mảng B[] mình sẽ nhập vào set.Sau đó thì mình duyệt mảng A[], và sử dụng hàm count của set lúc này là có các phần tử mảng B[].`if(se.count(x))`
-
-Bởi vì, các phần tử trong set chỉ xuất hiện 1 hoặc 0 lần. Nên mình xét mảng A[] theo B[]
+Sau đó thì ta sẽ duyệt mảng A[] `for(int x : a)`.Với điều kiện `if(se.count(x))`.
 
 ```cpp
 #include<bits/stdc++.h>
