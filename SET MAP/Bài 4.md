@@ -22,7 +22,7 @@ int main(){
         }else if(op== 2){
             auto it = se.find(x);
             if(it!=se.end()){
-                se.erase(it); 
+                se.erase(it); // xóa qua iterartor,lúc này iterartor đang trỏ đến phần tử x đầu tiên
             }
         }else{
             auto it = se.find(x);
