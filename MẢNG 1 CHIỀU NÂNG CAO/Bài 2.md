@@ -2,7 +2,7 @@
 
 Bài này khá dễ, so sánh số sau va trước, i với i - 1.
 
-```
+```cpp
 #include <bits/stdc++.h>
 
 using namespace std;
