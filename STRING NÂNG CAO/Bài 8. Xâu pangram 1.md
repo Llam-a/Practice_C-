@@ -6,21 +6,22 @@ Bài này mình sẽ chuẩn hóa hết sang thường, sau đó thì cho hết 
 #include<bits/stdc++.h>
 
 using namespace std;
-string inthuong(string &s){
-    for(char c : s){
-        tolower(c);
+void inthuong(string &s){
+    for(char &c : s){
+        c = tolower(c);
     }
 }
 int main(){
     string s; cin >> s;
     set<char> se;
+    inthuong(s);
     for(char c : s){
         se.insert(c);
     }
     if(se.size() == 26){
-        cout << "YES" << endl;
+        cout << "YES";
     }else{
-        cout << "NO" << endl;
+        cout << "NO";
     }
-}
+}}
 ```
