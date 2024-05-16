@@ -1,6 +1,6 @@
 ![image](https://github.com/Llam-a/Practice_Cpp/assets/115911041/67013ceb-a51f-4d9a-ba21-5dab06af3370)
 
-Bài này chỉ cần giải quyết từng yêu cầu của đề, mình sử dụng map duyệt để lưu tần suất. Sau đó đi tìm tần suất lớn nhất và nhỏ nhất.Cuối cùng là xử lí yêu cầu của đề, `cùng tần suất lớn nhất thì in ra thứ tự từ điền lớn nhất, còn cùng tần suất lớn nhất thì in ra thứ tự từ điển nhỏ nhất`.
+Bài này chỉ cần giải quyết từng yêu cầu của đề, mình sử dụng map duyệt để lưu tần suất. Sau đó đi tìm tần suất lớn nhất và nhỏ nhất.Cuối cùng là xử lí yêu cầu của đề, `cùng tần suất lớn nhất thì in ra thứ tự từ điền lớn nhất, còn cùng tần suất lớn nhất thì in ra thứ tự từ điển lớn nhất`.
 
 ```cpp
 #include<bits/stdc++.h>
