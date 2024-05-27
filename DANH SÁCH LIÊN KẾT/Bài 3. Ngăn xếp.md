@@ -45,6 +45,7 @@ Sample Output 1
 EMPTY
 ```
 
+Bài này làm theo kiểu LIFO - Last In First Out, push thì sẽ thêm đầu.
 ```cpp
 #include<bits/stdc++.h>
 
