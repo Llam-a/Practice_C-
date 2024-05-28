@@ -1,5 +1,8 @@
 ![image](https://github.com/Llam-a/Practice_Cpp/assets/115911041/ad4aad34-37c6-402a-8469-0c6ba3126a0e)
 
+![image](https://github.com/Llam-a/Practice_Cpp/assets/115911041/54020743-39b7-4d87-ae6f-eac99f43ad22)
+
+
 ```cpp
 #include<bits/stdc++.h>
 
