@@ -10,7 +10,7 @@ Tiếp theo yêu cầu của đề là tìm số xuất hiện ở mọi dòng.C
 
 Sau đó thì sử dụng bool để check.Nếu mà value của nó bằng n thì bool là true rồi cout.còn ko thì cout NOT FOUND.
 
-```
+```cpp
 #include<bits/stdc++.h>
 
 using namespace std;   
@@ -18,9 +18,9 @@ using namespace std;
 int main(){
     int n; cin >>n;
     map<int,int> mp;
-    for(int i=0; i<n; i++){
+    for(int i=1; i<=n; i++){
         set<int> check;//được làm mới cho mỗi dòng
-        for(int j=0; j<n; j++){
+        for(int j=1 ; j<=n; j++){
             int x; cin >> x;
             if(check.count(x) == 0){
                 mp[x]++;
